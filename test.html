@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!-- Field Location test -->
+<html lang="en">
+    <head>
+        <title>Helibeater Funfly April 10-13, 2025 | Livermore, CA</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,700" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        
+        <!-- Scripts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <!-- Mobile Navigation -->
+        <div id="mobile-nav-container">
+            <ul id="mobile-nav">
+                <li>
+                    <a class="button mobile-header-button" href="/index.html">Main Page</a>
+                </li>
+                <li>
+                    <a class="button mobile-header-button" href="/contact.html">Contact</a>
+                </li>
+                <li>
+                    <a class="button mobile-header-button" data-toggle="modal" data-target="#register">Register</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Header -->
+        <header>
+            <div class="container">
+                <div id="main-nav-container">
+                    <div id="site-nav-container">
+                        <ul id="site-nav">
+                            <li>
+                                <a class="button header-button" href="/index.html">Main Page</a>
+                            </li>
+                            <li>
+                                <a class="button header-button" href="/contact.html">Contact</a>
+                            </li>
+                            <li>
+                                <a class="button header-button" data-toggle="modal" data-target="#register">Register</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="action-nav-container">
+                        <div id="hamburger-button" class="hamburger-icons">
+                            <div id="hamburger-toggle">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Background -->
+        <div class="container-fluid no-padding">
+            <div class="main-background">
+                <div class="main-gradient">
+                </div>
+            </div>
+        </div>
+
+        <!-- Welcome Section -->
+        <div class="container-fluid no-padding location-content">
+            <div class="container text-center text-black">
+                <h1>Welcome to Helibeater Funfly
+                <br>
+                <a href="https://goo.gl/maps/9eARtipeXLCiFoSU8" aria-label="View location on Google Maps">
+                    8433 Patterson Pass Rd, Livermore, CA 94550
+                </a>
+                </h1>
+            </div>
+        </div>
+
+
+        <!-- Map and Content Section -->
+        <div id="container" class="container text-center">
+            <a href="/">
+                <img src="/images/welcome.jpg" alt="Welcome banner" class="img-responsive center-block">
+            </a>
+            <div class="map-responsive">
+                <iframe
+                    style="border: 5px solid #483d8b;"
+                    loading="lazy"
+                    allowfullscreen
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1100.661399810985!2d-121.68937917075688!3d37.694339059930584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x533d82955c63cd52!2zMzfCsDQxJzM5LjYiTiAxMjHCsDQxJzE5LjgiVw!5e1!3m2!1sen!2sus!4v1637206789875!5m2!1sen!2sus">
+                </iframe>
+            </div>
+        </div>
+
+        <!-- Features Section -->
+        <div id="location" class="other-flying-sites">
+            <div class="container">
+                <div class="col-md-4 offer text-center">
+                    <img class="offer-image img-responsive center-block" src="/images/ranch_globe.jpg" alt="Flying stations">
+                    <h2>3 Flying Stations</h2>
+                    <p class="offer-description">40x20 and 20x20 concrete pads. Plenty of room for everyone!</p>
+                </div>
+                <div class="col-md-4 offer text-center">
+                    <img class="offer-image img-responsive center-block" src="/images/aerial_1.jpg" alt="RV Camping">
+                    <h2>RV Camping on Site</h2>
+                    <p class="offer-description">Hookups available. Let us know if you'll be camping!</p>
+                </div>
+                <div class="col-md-4 offer text-center">
+                    <img class="offer-image img-responsive center-block" src="/images/aerial_1.jpg" alt="Hotels Nearby">
+                    <h2>Hotels 10 Minutes Away</h2>
+                    <p class="offer-description">Comfortable hotels and dining nearby!</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="container-fluid no-padding">
+            <div class="container text-center">
+                <h2>Check us out on Facebook</h2>
+                <a href="https://www.facebook.com/groups/277746093028119/" aria-label="Visit our Facebook group">
+                    <img src="/images/facebook-36.png" alt="Facebook logo">
+                </a>
+                <p id="copyright"></p>
+            </div>
+        </footer>
+
+        <!-- Register Modal -->
+        <div id="register" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+                        <h2 class="modal-title">Register for Helibeater Funfly</h2>
+                    </div>
+                    <div class="modal-body">
+                        <p>Experience four action-packed days of flying, friends, and fun!</p>
+                        <p>AMA membership is required to fly.</p>
+                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                            <input type="hidden" name="business" value="ranchhelibeaters@gmail.com">
+                            <input type="hidden" name="cmd" value="_xclick">
+                            <input type="hidden" name="item_name" value="Helibeater Funfly Registration">
+                            <input type="hidden" name="currency_code" value="USD">
+                            <select name="os1">
+                                <option value="Package Deal">Package Deal - $90</option>
+                                <option value="Registration Only">Registration Only - $40</option>
+                            </select>
+                            <br><br>
+                            <input type="submit" value="Buy Now">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scripts -->
+        <script>
+            document.getElementById('copyright').innerText = "Copyright © " + new Date().getFullYear() + " HeliBeater Funfly";
+        </script>
+        <script>
+            $(document).ready(function () {
+                $('#hamburger-toggle').click(function () {
+                    $(this).toggleClass('open');
+                    $('#mobile-nav-container').toggle(); // Toggles the mobile navigation menu
+                });
+            });
+        </script>
+        
+    </body>
+</html>
