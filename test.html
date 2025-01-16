@@ -14,6 +14,17 @@
         <!-- Scripts -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script>
+            document.getElementById('copyright').innerText = "Copyright © " + new Date().getFullYear() + " HeliBeater Funfly";
+        </script>
+        <script>
+            $(document).ready(function () {
+                $('#hamburger-toggle').click(function () {
+                    $(this).toggleClass('open');
+                    $('#mobile-nav-container').toggle(); // Toggles the mobile navigation menu
+                });
+            });
+        </script>
     </head>
     <body>
         <!-- Mobile Navigation -->
@@ -73,12 +84,12 @@
         <!-- Welcome Section -->
         <div class="container-fluid no-padding location-content">
             <div class="container text-center text-black">
-                <h1>Welcome to Helibeater Funfly
+                <h2>Welcome to the Helibeater Funfly
                 <br>
                 <a href="https://goo.gl/maps/9eARtipeXLCiFoSU8" aria-label="View location on Google Maps">
                     8433 Patterson Pass Rd, Livermore, CA 94550
                 </a>
-                </h1>
+                </h2>
             </div>
         </div>
 
@@ -159,17 +170,7 @@
         </div>
 
         <!-- Scripts -->
-        <script>
-            document.getElementById('copyright').innerText = "Copyright © " + new Date().getFullYear() + " HeliBeater Funfly";
-        </script>
-        <script>
-            $(document).ready(function () {
-                $('#hamburger-toggle').click(function () {
-                    $(this).toggleClass('open');
-                    $('#mobile-nav-container').toggle(); // Toggles the mobile navigation menu
-                });
-            });
-        </script>
+
         
     </body>
 </html>
